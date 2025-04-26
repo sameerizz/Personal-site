@@ -1,20 +1,16 @@
 # Personal Site
 
-A minimalist personal collection site built with Next.js and Tailwind CSS.
+A minimalist personal site for Sameer Siddiqui, focused on AI, wealth creation, and digital exploration.
 
 ## Features
 
-- Clean, minimalist black and white design
+- Clean, minimalist design with dark mode support
 - Responsive layout for all devices
-- Collection sections for:
-  - Images
-  - AI Tools
-  - Books
-  - Blogs
-  - Videos
-  - Tweets
+- Detailed personal profile with journey timeline
+- "What I Do" section with key focus areas
+- Newsletter subscription section
 - Social media links
-- Mobile-friendly navigation
+- Dark/light mode toggle
 
 ## Tech Stack
 
@@ -22,6 +18,7 @@ A minimalist personal collection site built with Next.js and Tailwind CSS.
 - TypeScript
 - Tailwind CSS
 - React
+- next-themes (for dark mode)
 
 ## Getting Started
 
