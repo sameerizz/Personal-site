@@ -1,4 +1,5 @@
 import ThemeToggle from "./ThemeToggle";
+import Link from "next/link";
 
 export default function Header() {
   return (
@@ -6,9 +7,9 @@ export default function Header() {
       <div className="max-w-6xl mx-auto px-6 w-full">
         <div className="flex justify-between h-20">
           <div className="flex items-center">
-            <a href="/" className="font-montserrat text-lg font-bold tracking-tight hover:opacity-70 transition-opacity">
+            <Link href="/" className="font-montserrat text-lg font-bold tracking-tight hover:opacity-70 transition-opacity">
               sameerizz
-            </a>
+            </Link>
           </div>
           <div className="flex items-center space-x-3 sm:space-x-6">
             <a href="#about" className="text-sm hover:opacity-70 transition-opacity">About</a>

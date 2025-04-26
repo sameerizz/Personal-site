@@ -17,7 +17,6 @@ export default function WordScroll({ words }: WordScrollProps) {
       const container = containerRef.current;
       const rect = container.getBoundingClientRect();
       const containerTop = rect.top;
-      const containerHeight = rect.height;
       const windowHeight = window.innerHeight;
       
       // Calculate scroll progress (0 to 1)

@@ -1,4 +1,3 @@
-import Image from "next/image";
 import BlurAnimation from "../components/BlurAnimation";
 
 export default function Home() {
@@ -60,16 +59,16 @@ export default function Home() {
         <div className="creative-grid gap-x-20 md:gap-x-24 items-center">
           <div className="prose prose-lg max-w-none reveal-left">
             <p className="text-gradient text-xl md:text-2xl mb-6 font-montserrat text-shadow-sm leading-relaxed">
-              Hey, I'm Sameer, a 21-year-old thinker, creator, and digital explorer. I thrive on uncovering hidden opportunities, breaking conventional norms, and leveraging AI to automate and optimize everything possible.
+              Hey, I&apos;m Sameer, a 21-year-old thinker, creator, and digital explorer. I thrive on uncovering hidden opportunities, breaking conventional norms, and leveraging AI to automate and optimize everything possible.
             </p>
             <p className="text-gradient text-xl md:text-2xl mb-6 font-montserrat text-shadow-sm leading-relaxed">
-              As an INFP-T (Mediator), I'm naturally introverted but can be quite extroverted with people I'm close to. I'm a deep thinker with a subtle yet charismatic presence, and I tend to take a rebellious approach to conventional wisdom.
+              As an INFP-T (Mediator), I&apos;m naturally introverted but can be quite extroverted with people I&apos;m close to. I&apos;m a deep thinker with a subtle yet charismatic presence, and I tend to take a rebellious approach to conventional wisdom.
             </p>
           </div>
           <div className="creative-card reveal-right p-10 md:p-14">
             <h3 className="mb-8 font-montserrat font-bold text-gradient">My Mission</h3>
             <p className="text-lg md:text-xl font-montserrat leading-relaxed mb-8">
-              I'm on a mission to achieve financial freedom, using AI-driven content creation, automation, and business strategies to make it happen.
+              I&apos;m on a mission to achieve financial freedom, using AI-driven content creation, automation, and business strategies to make it happen.
             </p>
             <div className="flex flex-wrap gap-3 mt-6">
               <span className="text-xs px-3 py-1.5 bg-black/10 dark:bg-white/15 rounded-full text-black/70 dark:text-white/90 font-montserrat">INFP-T</span>
@@ -183,10 +182,10 @@ export default function Home() {
           <h2 className="text-gradient mb-6 sm:mb-8">My Vision</h2>
           <div className="prose prose-lg max-w-none">
             <p className="text-gradient text-xl md:text-2xl">
-              I believe in leveraging the internet to create a life of freedom. Instead of following the traditional path, I'm building something of my own using AI, automation, and content creation to make an impact and generate income.
+              I believe in leveraging the internet to create a life of freedom. Instead of following the traditional path, I&apos;m building something of my own using AI, automation, and content creation to make an impact and generate income.
             </p>
             <p className="text-gradient text-xl md:text-2xl">
-              My goal is to achieve financial freedom through AI-driven content creation and online business. I'm focused on building systems that generate passive income, allowing me to focus on what truly matters to me.
+              My goal is to achieve financial freedom through AI-driven content creation and online business. I&apos;m focused on building systems that generate passive income, allowing me to focus on what truly matters to me.
             </p>
             <p className="text-gradient text-xl md:text-2xl">
               This website is my digital playground, where I share what I learn, document my journey, and help others find their own edge in the digital world.
@@ -217,9 +216,9 @@ export default function Home() {
 
       {/* Connect Section */}
       <section id="connect" className="creative-container reveal pt-12 sm:pt-16">
-        <h2 className="text-gradient mb-10 sm:mb-16">Let's Connect</h2>
+        <h2 className="text-gradient mb-10 sm:mb-16">Let&apos;s Connect</h2>
         <p className="muted-text text-lg sm:text-xl mb-8 sm:mb-12 max-w-2xl">
-          If you're into AI, automation, or making smart moves online, let's connect! You can find me on these platforms:
+          If you&apos;re into AI, automation, or making smart moves online, let&apos;s connect! You can find me on these platforms:
         </p>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6 stagger-children">
           <a 

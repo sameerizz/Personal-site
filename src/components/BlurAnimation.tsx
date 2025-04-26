@@ -122,7 +122,7 @@ export default function BlurAnimation({ words }: BlurAnimationProps) {
           style={getStyle()}
         >
           <div className="flex flex-col" style={{ lineHeight: '0.85' }}>
-            {words.map((word, index) => (
+            {words.map((word) => (
               <span key={word} className="text-gradient my-2">
                 {word}
               </span>
